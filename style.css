@@ -1,19 +1,49 @@
-* {
+/* tentativa de sobrepor conteudos com diisplay: flex */
+
+*,
+*:after,
+*:before {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
 }
-body {
+
+.content {
+  width: 90%;
+  margin: 2% 5%;
+}
+
+.slide {
+  padding: 0 !important;
   display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 50vh;
+  position: relative;
+}
+
+.slide_item {
+  display: flex;
+  width: 100%;
+  position: relative;
+}
+
+/* configuração do body */
+
+body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   background-color: #036b52;
 }
 
+/* código do coração que bate bate */
+.container {
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .content-coracao {
+  height: 50vh;
   position: relative;
   display: flex;
   justify-content: center;
@@ -61,4 +91,28 @@ body {
 .circle:before {
   right: 25px;
   top: 30px;
+}
+
+/* trabalho com os textos */
+
+.topo {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.meio {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  color: #fff;
+  position: absolute;
+  bottom: 33%;
+}
+
+.baixo {
+  position: relative;
+  display: flex;
+  justify-content: center;
 }
