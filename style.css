@@ -1,4 +1,4 @@
-/* tentativa de sobrepor conteudos com diisplay: flex */
+/* tentativa de sobrepor conteudos com display: flex */
 
 *,
 *:after,
@@ -49,6 +49,16 @@ body {
   justify-content: center;
   width: 500px;
   -webkit-animation: pulsa 1s linear 0s infinite;
+}
+.content-coracao::after{
+  content: "#BETRYBE";
+  position: absolute;
+  text-align: center;;
+  width: 100%;
+  font-size: 50px;
+  line-height: 50px;
+  color:white;
+  top: calc(50% - 25px);
 }
 @keyframes pulsa {
   0% {
