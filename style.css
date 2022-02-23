@@ -48,7 +48,7 @@ body {
   display: flex;
   justify-content: center;
   width: 500px;
-  -webkit-animation: pulsa 1s linear 0s infinite;
+  animation: pulsa 1s linear 0s infinite;
 }
 .content-coracao::after{
   content: "#BETRYBE";
