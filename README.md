@@ -39,11 +39,11 @@ Eu gostaria de fazer 3 páginas.
 
  - Essas fotos e depoimentos vão trocar de acordo com o número de palavras no depoimento.
  - Existe um código para calcular o tempo de leitura de um texto. (não conheço mais vou achar)
- - E os depoimentos vão entrar em um sistema de posts na segunda página que mostrará todos os depoimentos e agradecimento. Os posts vão ser ca rregados de acordo com o scroll do usuário.
+ - E os depoimentos vão entrar em um sistema de posts na segunda página que mostrará todos os depoimentos e agradecimento. Os posts vão ser carregados de acordo com o scroll do usuário.
 
 Isso usa 100% de todo o conhecimento que teremos.
 
-#### Se você chegou até obrigado pelo seu tempo.
+#### Se você chegou até aqui obrigado pelo seu tempo.
 
 Se você quiser me ajudar me mande um Slack que eu irei adicionar você ao repositório.
 Você também pode me achar no e-mail <caio_bgalvao@hotmail.com>.
